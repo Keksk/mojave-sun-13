@@ -12399,7 +12399,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
 	dir = 8
 	},
-/obj/machinery/duct,
 /turf/open/floor/iron/dark,
 /area/service/hydroponics)
 "bvF" = (
@@ -13781,7 +13780,6 @@
 /obj/structure/disposalpipe/junction/yjunction{
 	dir = 8
 	},
-/obj/machinery/duct,
 /turf/open/floor/iron,
 /area/hallway/primary/port)
 "bVX" = (
@@ -14292,7 +14290,13 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+<<<<<<< HEAD
 /obj/machinery/duct,
+=======
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+>>>>>>> f0e44687764... tramstation botany piping fixes (#60753)
 /turf/open/floor/iron/dark,
 /area/service/hydroponics)
 "cdY" = (
@@ -19910,7 +19914,6 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/machinery/duct,
 /turf/open/floor/iron/dark,
 /area/service/hydroponics)
 "elU" = (
@@ -22284,13 +22287,6 @@
 /obj/machinery/airalarm/directional/east,
 /turf/open/floor/iron,
 /area/engineering/atmos)
-"fgT" = (
-/obj/effect/turf_decal/trimline/green/filled/corner{
-	dir = 4
-	},
-/obj/machinery/duct,
-/turf/open/floor/iron/dark,
-/area/service/hydroponics)
 "fgV" = (
 /obj/structure/disposalpipe/segment{
 	dir = 5
@@ -25580,7 +25576,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
 	dir = 8
 	},
-/obj/machinery/duct,
 /turf/open/floor/iron/dark,
 /area/service/hydroponics)
 "gtB" = (
@@ -27214,7 +27209,6 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/machinery/duct,
 /turf/open/floor/iron/dark,
 /area/service/hydroponics)
 "gXs" = (
@@ -34652,7 +34646,6 @@
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 4
 	},
-/obj/machinery/duct,
 /turf/open/floor/iron/dark,
 /area/service/hydroponics)
 "jJo" = (
@@ -37297,7 +37290,6 @@
 /obj/structure/disposalpipe/segment{
 	dir = 10
 	},
-/obj/machinery/duct,
 /turf/open/floor/iron/dark,
 /area/service/hydroponics)
 "kCU" = (
@@ -40546,6 +40538,8 @@
 	dir = 5
 	},
 /obj/machinery/light/directional/north,
+/obj/structure/reagent_dispensers/watertank/high,
+/obj/item/reagent_containers/glass/bucket,
 /turf/open/floor/iron/dark,
 /area/service/hydroponics)
 "lOd" = (
@@ -43382,6 +43376,8 @@
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 1
 	},
+/obj/structure/reagent_dispensers/watertank/high,
+/obj/item/reagent_containers/glass/bucket,
 /turf/open/floor/iron/dark,
 /area/service/hydroponics)
 "mWF" = (
@@ -45066,7 +45062,6 @@
 	name = "sorting disposal pipe (Lawyer)";
 	sortType = 29
 	},
-/obj/machinery/duct,
 /turf/open/floor/iron,
 /area/hallway/primary/port)
 "nFJ" = (
@@ -48049,7 +48044,6 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
 	},
-/obj/machinery/duct,
 /turf/open/floor/iron/dark,
 /area/service/hydroponics)
 "oJf" = (
@@ -48659,7 +48653,6 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
-/obj/machinery/duct,
 /turf/open/floor/iron/dark,
 /area/service/hydroponics)
 "oTx" = (
@@ -50011,7 +50004,6 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/machinery/duct,
 /turf/open/floor/iron,
 /area/hallway/primary/port)
 "pss" = (
@@ -63886,7 +63878,6 @@
 	c_tag = "Service - Hydroponics South";
 	dir = 10
 	},
-/obj/machinery/duct,
 /turf/open/floor/iron/dark,
 /area/service/hydroponics)
 "uEX" = (
@@ -64962,7 +64953,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
 	dir = 8
 	},
-/obj/machinery/duct,
 /turf/open/floor/iron/dark,
 /area/service/hydroponics)
 "uYA" = (
@@ -162046,7 +162036,7 @@ acS
 acS
 oTr
 jJl
-fgT
+bIU
 oJc
 elq
 cEY
@@ -163077,13 +163067,13 @@ wUp
 wUp
 hVA
 bVu
-nhY
-nhY
-nhY
-nhY
-nhY
+hVA
+hVA
+hVA
+hVA
+hVA
 nFs
-nhY
+hVA
 wkC
 iPq
 nhY
